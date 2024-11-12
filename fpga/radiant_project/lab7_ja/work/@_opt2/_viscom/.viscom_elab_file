@@ -1,0 +1,1 @@
+C:/lscc/radiant/2024.1/questasim/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 393216 work.testbench_aes_core -quiet -auto_acc_if_foreign -work work -L iCE40UP +acc -allow_unnamed -o _opt2 -id 1-5414f3c1372f-672c30f1-1b2-6c10 +__design_bin_path+C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/radiant_project/lab7_ja +__betafsm

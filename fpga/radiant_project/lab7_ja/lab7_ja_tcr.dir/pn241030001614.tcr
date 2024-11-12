@@ -1,0 +1,28 @@
+#Start recording tcl command: 10/28/2024 20:45:46
+#Project Location: C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/radiant_project/lab7_ja; Project name: lab7_ja
+prj_create -name "lab7_ja" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_add_source "C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_core_tb.sv" "C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_sbox_tb.sv" "C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_spi_tb.sv" "C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_starter.sv"
+prj_save 
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 10/30/2024 00:16:14

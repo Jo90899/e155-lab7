@@ -1,0 +1,570 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+Z3 !s12c _opt1
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R0
+R1
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 dC:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/radiant_project/lab7_ja
+T_opt
+!s110 1730952929
+VG5oDjS0OQ?CF0;`k^B;@T2
+04 17 4 work testbench_aes_spi fast 0
+=1-5414f3c1372f-672c3ee1-16f-6be8
+R1
+!s12f OEM25U50 
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+Z7 !s135 nogc
+Z8 o-quiet -auto_acc_if_foreign -work work -L iCE40UP +acc
+Z9 tCvgOpt 0
+n@_opt
+Z10 OL;O;2024.2;79
+T_opt1
+!s110 1730936052
+V[G`<Fa;7S84Y>=[TfOk>_1
+Z11 04 18 4 work testbench_aes_core fast 0
+=1-5414f3c1372f-672bfcf4-173-5c44
+R1
+!s12f OEM25U48 
+R5
+R6
+R7
+o-quiet -auto_acc_if_foreign -work work -L iCE40UP
+R9
+n@_opt1
+R10
+R4
+T_opt2
+!s110 1730949361
+Vi1:jAA>Ne]mA^H5e3_:ek0
+R11
+=1-5414f3c1372f-672c30f1-1b2-6c10
+R1
+!s12f OEM25U49 
+R5
+R6
+R7
+R8
+R9
+n@_opt2
+R10
+R4
+vaes
+Z12 2C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_starter.sv
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z14 !s110 1730952916
+!i10b 1
+!s100 8AO:E<LIVkDEkoG74KeIC3
+IbBb2Ye<Whi8=R5MJXdgg^2
+S1
+R4
+Z15 w1730949342
+Z16 8C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_starter.sv
+Z17 FC:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_starter.sv
+!i122 210
+L0 10 16
+Z18 VDg1SIo80bB@j0V0VzS_@n1
+Z19 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z20 !s108 1730952916.000000
+Z21 !s107 C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_starter.sv|
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_starter.sv|
+!i113 0
+Z23 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vaes_core
+R12
+R13
+R14
+!i10b 1
+!s100 g0H0l^_z1CW=0RNJCYAn62
+I1jlA_@Pl8<ONYkn8Y2ZeG1
+S1
+R4
+R15
+R16
+R17
+!i122 210
+L0 83 67
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vaes_spi
+R12
+R13
+R14
+!i10b 1
+!s100 DB;YYaG`c7ac7>YW`Rf`_2
+ICi91WfPK^KLTF`E]S8heh0
+S1
+R4
+R15
+R16
+R17
+!i122 210
+L0 34 29
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vcontroller
+Z24 2C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_modules.sv
+R13
+R14
+!i10b 1
+!s100 Jg:ILIH[HEBadDLzgmaSK3
+IkQEH[`L;F@B0FdoOoEA:m0
+S1
+R4
+Z25 w1730952907
+Z26 8C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_modules.sv
+Z27 FC:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_modules.sv
+!i122 213
+L0 2 68
+R18
+R19
+r1
+!s85 0
+31
+R20
+Z28 !s107 C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_modules.sv|
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_modules.sv|
+!i113 0
+R23
+R9
+vencode
+R24
+R13
+R14
+!i10b 1
+!s100 zS=6OCii;1Sid6PMNMQPg0
+I;4G;PmFbnM8_KnQXflEXi1
+S1
+R4
+R25
+R26
+R27
+!i122 213
+L0 119 12
+R18
+R19
+r1
+!s85 0
+31
+R20
+R28
+R29
+!i113 0
+R23
+R9
+vgaloismult
+R12
+R13
+R14
+!i10b 1
+!s100 YS:UEbblhGWSI9]d5JKz`1
+Ia1kZXZW8m=:^Q2=j[Kl8L2
+S1
+R4
+R15
+R16
+R17
+!i122 210
+L0 255 8
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vkeyExpansion
+R24
+R13
+R14
+!i10b 1
+!s100 JiZm^ULa]UgK]^C<K`^`Q0
+Ioc[@e]9G6YVk`CcS<dkg^1
+S1
+R4
+R25
+R26
+R27
+!i122 213
+L0 71 33
+R18
+R19
+r1
+!s85 0
+31
+R20
+R28
+R29
+!i113 0
+R23
+R9
+nkey@expansion
+vmixcolumn
+R12
+R13
+R14
+!i10b 1
+!s100 S8TRJJzUf558CkK9bYCcd2
+If3O8Yz<3C9=PThYELfFWl3
+S1
+R4
+R15
+R16
+R17
+!i122 210
+L0 228 19
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vmixcolumns
+R12
+R13
+R14
+!i10b 1
+!s100 3RE]ZOIMchS4?F][Vh__P3
+I31ePPGR:g3]e>MS_neS_31
+S1
+R4
+R15
+R16
+R17
+!i122 210
+L0 211 9
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vmixColumns
+R24
+R13
+R14
+!i10b 1
+!s100 h3:E@4o5Z:Qjm;GO`_HJ70
+I4H=gRG=VInzk3Zh6TD9;n1
+S1
+R4
+R25
+R26
+R27
+!i122 213
+L0 181 19
+R18
+R19
+r1
+!s85 0
+31
+R20
+R28
+R29
+!i113 0
+R23
+R9
+nmix@columns
+vpreEncode
+R24
+R13
+R14
+!i10b 1
+!s100 MKN1IC7V^HmeMYTS5Xla02
+IZFU?CRi]:^k3RT6H<oYVh2
+S1
+R4
+R25
+R26
+R27
+!i122 213
+L0 105 13
+R18
+R19
+r1
+!s85 0
+31
+R20
+R28
+R29
+!i113 0
+R23
+R9
+npre@encode
+vsbox
+R12
+R13
+R14
+!i10b 1
+!s100 V<G<MJmm2hg3M;:XQBT5`3
+IbL@]o@zonf]fD@gRR_Rf10
+S1
+R4
+R15
+R16
+R17
+!i122 210
+L0 170 10
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vsbox_sync
+R12
+R13
+R14
+!i10b 1
+!s100 Ljm[8@cT[e^2<bfSbmfVe3
+IYbZC9U==P:lJn6jk]7^LZ2
+S1
+R4
+R15
+R16
+R17
+!i122 210
+L0 187 16
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vshiftRows
+R24
+R13
+R14
+!i10b 1
+!s100 01]0B;n?4iWfMFHoVeeOm3
+I<KOFLbd?c;P?0>IZ]``f;1
+S1
+R4
+R25
+R26
+R27
+!i122 213
+L0 164 16
+R18
+R19
+r1
+!s85 0
+31
+R20
+R28
+R29
+!i113 0
+R23
+R9
+nshift@rows
+vsubBytes
+R24
+R13
+R14
+!i10b 1
+!s100 lU07Y>boSBE5`D?C:FN9i3
+I_afM_gdf[SB5?95e:DoIK1
+S1
+R4
+R25
+R26
+R27
+!i122 213
+L0 132 31
+R18
+R19
+r1
+!s85 0
+31
+R20
+R28
+R29
+!i113 0
+R23
+R9
+nsub@bytes
+vtestbench_aes_core
+2C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_core_tb.sv
+R13
+R14
+!i10b 1
+!s100 FIO7h3@d^kFng7_gbKhj30
+IJ`E4DL8`OH]W;?0@d>z;31
+S1
+R4
+Z30 w1730173229
+8C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_core_tb.sv
+FC:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_core_tb.sv
+!i122 214
+L0 11 42
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_core_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_core_tb.sv|
+!i113 0
+R23
+R9
+vtestbench_aes_sbox
+2C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_sbox_tb.sv
+R13
+R14
+!i10b 1
+!s100 E802:^hIgYbZd^<0leGNb3
+IgBMaeJ_hGE2RoaP8n<79b0
+S1
+R4
+R30
+8C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_sbox_tb.sv
+FC:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_sbox_tb.sv
+!i122 212
+L0 7 67
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_sbox_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_sbox_tb.sv|
+!i113 0
+R23
+R9
+vtestbench_aes_spi
+2C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_spi_tb.sv
+R13
+R14
+!i10b 1
+!s100 i:dDS<0Q2KP=8^;AW<LfX2
+I3;5_Ea8kX_Z3VX_@IOT[30
+S1
+R4
+w1730949670
+8C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_spi_tb.sv
+FC:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_spi_tb.sv
+!i122 211
+L0 8 73
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_spi_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_spi_tb.sv|
+!i113 0
+R23
+R9

@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/4/2024 22:20:03
+#Project Location: C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/radiant_project/lab7_ja; Project name: lab7_ja
+prj_open "C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/radiant_project/lab7_ja/lab7_ja.rdf"
+prj_add_source "C:/Users/josep/Desktop/MicroPs/labs/lab7/fpga/src/aes_modules.sv"
+#Stop recording: 11/5/2024 15:37:49
